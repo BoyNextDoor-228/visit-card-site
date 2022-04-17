@@ -1,0 +1,77 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 90vh;
+  background: rgb(29, 29, 29);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mainblock{
+  background-image: url(images/bcgrnd.png);
+  background-size: 100% 100%;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.nav-link:hover{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 102, 0);
+}
+
+.nav-link{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.d-flex{
+  list-style:none;
+}
+
+.namediv{
+  background-image: url(images/companybcg.png);
+  background-size: 100% 100%;
+  color: red;
+  text-align: center;
+  font-size: 48px;
+  font-style:unset;
+  line-height: 0.5;
+}
+
+.touch-btn{
+  background-color: rgb(255, 102, 0); 
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.touch-btn:hover{
+  color: white;
+}
+
+.shortdesc{
+  line-height: 1;
+}
+
+.namesClass{
+  font-size: 64px;
+  font-family: 'Poiret One', sans-serif;
+}
+
+.nav-item, span{
+  font-family: 'Poiret One', sans-serif;
+}

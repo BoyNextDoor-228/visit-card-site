@@ -65,7 +65,7 @@ const Home = () => {
                                             height="20px" 
                                             width="15px" 
                                             alt="img1"/>&nbsp;
-                                        СВЯЗАТЬСЯ
+                                        СВЯЗЬ
                                 </Link>
                         </motion.div>
                     </div>
